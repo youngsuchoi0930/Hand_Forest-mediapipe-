@@ -1,5 +1,5 @@
 # ----------------------------------------------------------------------
-# Finger Forest - gesture recognition
+# Hand Forest - gesture recognition
 # Tested on Python 3.10 / 3.11  (Windows / macOS / Linux)
 #
 # 설치:

@@ -308,7 +308,7 @@ class Hub:
         # 상단 제목 버블
         cv2.rectangle(canvas, (20, 20), (HUB_W - 20, 80), C_PANEL, -1)
         cv2.rectangle(canvas, (20, 20), (HUB_W - 20, 80), C_PANEL_LINE, 2)
-        cv2.putText(canvas, 'Finger Forest', (36, 48),
+        cv2.putText(canvas, 'Hand Forest', (36, 48),
                     cv2.FONT_HERSHEY_DUPLEX, 0.75, C_TEXT, 1, cv2.LINE_AA)
         cv2.putText(canvas, '* show your hand! *', (36, 68),
                     cv2.FONT_HERSHEY_SIMPLEX, 0.42, C_TEXT_SOFT, 1, cv2.LINE_AA)
@@ -423,7 +423,7 @@ def main():
         hub_resized = cv2.resize(hub_img, (int(HUB_W * cam_h / HUB_H), cam_h))
         combined = np.hstack([img, hub_resized])
 
-        cv2.imshow('Finger Forest', combined)
+        cv2.imshow('Hand Forest', combined)
         if cv2.waitKey(1) == ord('q'):
             break
 

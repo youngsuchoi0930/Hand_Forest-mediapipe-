@@ -1,10 +1,10 @@
-# 🌲 Finger Forest
+# 🌲 Hand Forest
 
 > Animal-Crossing-flavored hand gesture recognition.
-> **Webcam → MediaPipe → LSTM → a tiny pastel hub that reacts to your fingers.**
+> **Webcam → MediaPipe → LSTM → a tiny pastel hub that reacts to your Hands.**
 
 <p align="center">
-  <img src="assets/hero.png" alt="Finger Forest — 6 gestures preview" width="720"/>
+  <img src="assets/hero.png" alt="Hand Forest — 6 gestures preview" width="720"/>
 </p>
 
 Draw a gesture in the air and a little forest friend responds in real-time: it
@@ -140,7 +140,7 @@ Press `q` to quit.
  webcam frame ─▶ MediaPipe Hands (21 landmarks × (x,y,z,visibility))
                         │
                         ▼
-              joint angles (15 values between finger bones)
+              joint angles (15 values between Hand bones)
                         │
                         ▼
             rolling buffer of the last 30 frames
